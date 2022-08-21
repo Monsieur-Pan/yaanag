@@ -105,7 +105,7 @@ a:focus {
 	display: block;
 	width: 1.5em;
 	height: 1.5em;
-	margin: 0 auto;
+	margin: 1rem;
 	fill: currentColor;
 }
 
@@ -198,7 +198,7 @@ main {
 	position: relative;
 	display: flex;
 	justify-content: center;
-	text-align: center;
+	align-items: center;
 	font-family: liShu;
 	font-size: 16vw;
 	font-weight: normal;
@@ -215,7 +215,7 @@ main {
 	position: relative;
 	display: flex;
 	justify-content: center;
-	text-align: center;
+	align-items: center;
 	color: var(--color-tagline);
 	margin: 3rem 0 0 0;
 	font-weight: bold;
@@ -231,9 +231,10 @@ main {
 .action {
 	background: none;
 	border: 0;
-	color: #fff;
+	color: rgb(255, 255, 255);
 	cursor: pointer;
-	padding: 0;
+	padding: 1rem;
+	transform: scale(2);
 }
 
 .action--menu {
