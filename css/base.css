@@ -195,8 +195,12 @@ main {
 
 .content__title {
 	/* font-family: "sabbath-black", serif; */
+	position: relative;
+	display: flex;
+	justify-content: center;
+	text-align: center;
 	font-family: liShu;
-	font-size: 15vw;
+	font-size: 16vw;
 	font-weight: normal;
 	mix-blend-mode: screen;
 	line-height: 0.8;
@@ -208,6 +212,10 @@ main {
 }
 
 .content__tagline {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	text-align: center;
 	color: var(--color-tagline);
 	margin: 3rem 0 0 0;
 	font-weight: bold;
